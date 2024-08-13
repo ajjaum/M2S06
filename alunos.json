@@ -1,0 +1,21 @@
+{
+    "alunos": [
+      {
+        "nome": "João",
+        "serie": "8ª Série"
+      },
+      {
+        "nome": "Maria",
+        "serie": "7ª Série"
+      },
+      {
+        "nome": "Carlos",
+        "serie": "6ª Série"
+      },
+      {
+        "nome": "Ana",
+        "serie": "5ª Série"
+      }
+    ]
+  }
+  

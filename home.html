@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home do Aluno</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+    <div class="container" id="home-container">
+        <header>
+            <h2>Dados do Aluno</h2>
+        </header>
+
+        <main>
+            <section class="info-aluno">
+                <h2>Informações do Aluno</h2>
+                <p id="nome"></p>
+                <p id="idade"></p>
+                <p id="serie"></p>
+                <p id="escola"></p>
+                <p id="materiaFavorita"></p>
+                <p id="rua"></p>
+                <p id="bairro"></p>
+                <p id="cidade"></p>
+                <p id="estado"></p>
+            </section>
+
+            <section class="notas">
+                <div class="box-notas-linhas">
+                    <h2>Notas das Matérias</h2>
+                    <button onclick="novaLinha()">Adicionar Linha</button>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matéria</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota 3</th>
+                            <th>Nota 4</th>
+                            <th>Média</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Linhas de notas serão adicionadas aqui -->
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="box-media-geral">
+                <h2>Média Geral do Aluno</h2>
+                <p>A média geral do aluno é: <span id="media-geral">0.0</span></p>
+            </section>
+
+            <section class="box-maior-media">
+                <h2>Maior Média entre as Matérias</h2>
+                <p>A maior média entre as matérias é <span id="maior-media">0.0</span></p>
+            </section>
+
+            <section>
+                <div id="lista-alunos">
+                    <h3>Lista de Alunos</h3>
+                    <ul id="alunos-lista"></ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
